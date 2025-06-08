@@ -1,1 +1,3 @@
-const str: string = 'bye';
+import Grimpan from './grimpan.js';
+
+console.log(Grimpan.getInstance() === Grimpan.getInstance());
